@@ -1,0 +1,26 @@
+{
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "env": {
+        "es6": true,
+        "node": true,
+        "browser": true
+    },
+    "rules": {
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-console": "warn",
+        "no-mixed-spaces-and-tabs": "off",
+        "no-unused-vars": "error",
+        "no-lonely-if": "error",
+        "no-empty": "error",
+        "for-direction": "error"
+    }
+}

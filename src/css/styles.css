@@ -1,0 +1,157 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #747474;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* Cambiar .question a flex-direction: column */
+.question {
+  display: flex;
+  flex-direction: column;
+  /* Alinea los elementos verticalmente */
+  margin-bottom: 20px;
+}
+
+/* Cambiar el estilo de la etiqueta label para que aparezca en negrita */
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #747474;
+  font-weight: bold;
+}
+
+/* Agregar espacio entre las opciones de respuesta */
+.question input[type="radio"],
+.question input[type="checkbox"] {
+  margin-bottom: 25px;
+  margin-right: 10px;
+  transform: scale(1.7);
+}
+
+label span {
+  color: #747474;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+#submitButton,
+#clearButton,
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  color: #747474;
+}
+
+#submitButton,
+.button-blue {
+  background-color: #7a5cfa;
+  color: #fff;
+}
+
+.button-green {
+  background-color: #15be1d;
+  color: #fff;
+}
+
+.images-container2 {
+  position: relative;
+}
+
+.images-container img {
+  max-width: 150px;
+  position: absolute;
+}
+
+#submitButton:hover {
+  background-color: #674cc9;
+}
+
+#clearButton {
+  background-color: #fff;
+  color: #7a5cfa;
+  border: 2px solid #7a5cfa;
+}
+
+#clearButton:hover {
+  background-color: #7a5cfa;
+  color: #fff;
+}
+
+#recommendation {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+#plantForm {
+  width: 100%;
+  margin-left: 0;
+}
+
+.invisible {
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+}
+
+.container-customize-plant {
+  display: flex;
+  width: 100%;
+}
+
+.customize-your-plant-form {
+  width: 50%;
+}
+
+.customize-your-plant-preview {
+  width: 50%;
+}
+
+.container-store {
+  display: flex;
+}
+
+.container-store-preview {
+  width: 50%;
+}
+
+.container-store-information {
+  width: 50%;
+}
+
+.container-accordion {
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow-up {
+  transform: rotate(-90deg);
+}
+
+.arrow-down {
+  transform: rotate(90deg);
+}
+
+.arrow {
+  cursor: pointer;
+}

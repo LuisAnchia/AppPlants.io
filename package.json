@@ -1,0 +1,21 @@
+{
+  "name": "plants-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx http-server ./src/ -c1",
+    "lint": "eslint ./",
+    "lint-fix": "eslint ./ --fix"
+  },
+  "keywords": [],
+  "author": "Luis Anchia and Melanie Lopez",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "8.47.0",
+    "http-server": "14.1.1"
+  },
+  "devDependencies": {
+    "prettier": "3.0.2"
+  }
+}
