@@ -16,6 +16,10 @@ form {
   align-items: flex-start;
 }
 
+.flex{
+  display: flex;
+}
+
 /* Cambiar .question a flex-direction: column */
 .question {
   display: flex;

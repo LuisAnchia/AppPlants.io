@@ -3,6 +3,7 @@ import { potColors, soilInformation, plantInformation } from '/js/constants.js';
 const views = {};
 
 views.recommendation = /* html */ `<h1>Let us find the perfect plant for you</h1>
+<div class="flex">
 <form id="plantForm">
   <div class="question">
     <label>Where will you place your plant?</label>
@@ -69,9 +70,13 @@ views.recommendation = /* html */ `<h1>Let us find the perfect plant for you</h1
   </span>
 </form>
 
+<div>
 <div id="recommendation">
 <!-- Plant recommendation will be displayed here -->
+</div>
+</div>
 </div>`;
+
 
 views.customize = /* html */ `<h1>Customize your plant!</h1>
 <div class="container-customize-plant">
