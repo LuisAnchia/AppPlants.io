@@ -109,6 +109,18 @@ button {
 #recommendation {
   border: 1px solid #ccc;
   padding: 20px;
+  /* padding-bottom: 450px; */
+  position: relative;
+  right: 200px;
+  background-color: #7a5cfa;
+  color: white;
+  margin-left: -46%;
+  text-align: center;
+  /* gap: 5px !important; */
+  display: flex;
+  flex-direction: column;
+  gap: 220px !important;
+
 }
 
 #plantForm {
