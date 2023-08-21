@@ -6,7 +6,8 @@
   "scripts": {
     "start": "npx http-server ./src/ -c1",
     "lint": "eslint ./",
-    "lint-fix": "eslint ./ --fix"
+    "lint-fix": "eslint ./ --fix",
+    "format": "prettier src/js --write"
   },
   "keywords": [],
   "author": "Luis Anchia and Melanie Lopez",
