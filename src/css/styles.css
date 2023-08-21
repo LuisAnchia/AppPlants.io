@@ -20,8 +20,12 @@ form {
 .question {
   display: flex;
   flex-direction: column;
-  /* Alinea los elementos verticalmente */
   margin-bottom: 20px;
+  gap: 11px;
+}
+
+div {
+  color: #747474;
 }
 
 /* Cambiar el estilo de la etiqueta label para que aparezca en negrita */
