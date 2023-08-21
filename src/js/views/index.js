@@ -60,8 +60,10 @@ views.recommendation = /* html */ `<h1>Let us find the perfect plant for you</h1
       <input type="checkbox" name="extras" value="mini-plants">Smaller plants
     </div>
   </div>
+  <div>
   <input type="submit" value="Get your plant!" id="submitButton">
   <button type="button" id="clearButton">Clear</button>
+  </div>
   <span id="customizeButtonContainer">
     <button class="invisible" id="customizeButton">Customize</button>
   </span>
